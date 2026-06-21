@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { Filter, X } from "lucide-react";
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 import Sidebar from "./Sidebar";
 import ProductCard from "./ProductsCard";
 import Pagination from "./Pagination";
