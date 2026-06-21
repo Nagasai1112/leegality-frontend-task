@@ -1,12 +1,12 @@
 import { useState, useEffect, useCallback } from "react";
 import { Filter, X } from "lucide-react";
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
-import ProductCard from "../components/ProductsCard";
-import Pagination from "../components/Pagination";
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
+import ProductCard from "./ProductsCard";
+import Pagination from "./Pagination";
 import { getAllProducts, searchProducts, getProductsByCategory } from "../services/productApi";
 import { getAllCategories } from "../services/categoryApi";
-import useFilters from "../components/useFilters";
+import useFilters from "./useFilters";
 import SkeletonGrid from "./SkeletonGrid";
 
 const PAGE_SIZE = 8;
